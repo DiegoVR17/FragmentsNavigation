@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EjemploFragments" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.EjemploFragments" parent="Base.Theme.EjemploFragments" />
+
+    <style name="Theme.EjemploFragments.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.EjemploFragments.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.EjemploFragments.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.APISplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/orchid</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/icon_navigation</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.EjemploFragments</item>
+    </style>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_master_detail.xml"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.ejemplofragments.ui.list.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_fragment1"
+            app:destination="@id/fragment1" />
+        <action
+            android:id="@+id/action_listFragment_to_fragment2"
+            app:destination="@id/fragment2" />
+        <action
+            android:id="@+id/action_listFragment_to_fragment3"
+            app:destination="@id/fragment3" />
+        <action
+            android:id="@+id/action_listFragment_to_fragment4"
+            app:destination="@id/fragment4" />
+        <action
+            android:id="@+id/action_listFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.ejemplofragments.ui.batman.Fragment1"
+        android:label="fragment_1"
+        tools:layout="@layout/fragment_1" />
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.ejemplofragments.ui.flash.Fragment2"
+        android:label="fragment_2"
+        tools:layout="@layout/fragment_2" />
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.ejemplofragments.ui.superman.Fragment3"
+        android:label="fragment_3"
+        tools:layout="@layout/fragment_3" />
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.example.ejemplofragments.ui.wonderwoman.Fragment4"
+        android:label="fragment_4"
+        tools:layout="@layout/fragment_4" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.ejemplofragments.ui.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="superheroe"
+            app:argType="com.example.ejemplofragments.model.Superheroe" />
+    </fragment>
+</navigation>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Navigation Types</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="superhero1">Batman</string>
+    <string name="superheroalias1">Bruce Wayne</string>
+    <string name="superheropowers1">exceptional martial artist, combat strategy, inexhaustible wealth, brilliant deductive skill, advanced technology</string>
+    <string name="superhero2">The Flash</string>
+    <string name="superheroalias2">Barry Allen, Jay Garrick, Wally West</string>
+    <string name="superheropowers2">super speed, intangibility, superhuman agility, time travel, creates and controls lightning, multiversal knowledge</string>
+    <string name="superhero3">Superman</string>
+    <string name="superheroalias3">Clark Kent, Kal-El</string>
+    <string name="superheropowers3">super strength, flight, invulnerability, super speed, heat vision, freeze breath, x-ray vision, superhuman hearing, healing factor</string>
+    <string name="superhero4">Wonder Woman</string>
+    <string name="superheroalias4">Diana Prince</string>
+    <string name="superheropowers4">super strength, invulnerability, flight, combat skill, combat strategy, superhuman agility, healing factor, magic weaponry</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="nav1">Ir a BottomNavigation Activity</string>
+    <string name="nav2">Ir a SwipeTabs Activity</string>
+    <string name="nav3">Ir a NavigationDrawer Activity</string>
+    <string name="nav4">Ir a MasterDetail Activity</string>
+
+</resources>
